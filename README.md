@@ -6,15 +6,31 @@ Deep Hashing methods are most commonly used to implement content based image ret
 
 Out of all the Deep Hashing methods we shall implement the Hashnet and Deep Cauchy Hashing for content based image retrieval.
 
-#Datasets
+# Requirements
+
+Install the following with Python3 already installed:
+
+* Pytorch (https://pytorch.org/)
+* Numpy (https://numpy.org/)
+* Pandas (https://pypi.org/project/pandas/)
+* Pillow (PIL) (https://pypi.org/project/Pillow/)
+
+Other python libraries used are:
+
+* Scikit-Learn
+* Scikit-Image
+* Matplotlib
+
+# Datasets
 
 The data used in the notebook can be found here.
  
-Train Data: https://www.kaggle.com/varenyambakshi/digixai-image-retrieval.
+[Train Data](https://www.kaggle.com/varenyambakshi/digixai-image-retrieval)
 
-Test Data: https://www.kaggle.com/varenyambakshi/digixalgoai.
+[Test Data](https://www.kaggle.com/varenyambakshi/digixalgoai)
 
-#Network
+# Network
+
 Although there are many models available, we shall be using RESNET50. We will have broadly three types of layers namely
 
 Convolution layers

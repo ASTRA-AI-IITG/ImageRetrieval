@@ -14,6 +14,7 @@ Install the following with Python3 already installed:
 * Numpy (https://numpy.org/)
 * Pandas (https://pypi.org/project/pandas/)
 * Pillow (PIL) (https://pypi.org/project/Pillow/)
+* CUDA 11 (https://developer.nvidia.com/cuda-downloads) also make sure that you have GPU available on your system.
 
 Other python libraries used are:
 
